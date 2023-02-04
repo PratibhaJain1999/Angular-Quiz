@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+video{
+    width: 300px !important;
+}
+body{
+    background-image: url(../src/assets/images/2IiBThV.webp);
+    
+}
+img{
+    margin-left: 26px;
+    height: 230px;
+    border-radius: 20px;
+}
