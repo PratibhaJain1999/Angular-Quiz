@@ -26,8 +26,8 @@ export class QuizComponent implements OnInit {
   quizList = false;
   StartQuiz = true;
   correctAnswer= 0;
-  inCorrectAnswer=0
-  results=false
+  inCorrectAnswer=0;
+  results=false;
   questions: any;
     
 

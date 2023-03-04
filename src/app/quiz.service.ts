@@ -7,7 +7,7 @@ import { quiz } from './quiz/quiz.model';
 export class QuizService {
   quizz:any = [
     {
-      question:'1) Which Instrument Dr.A.P.J Abdul Kalam is playing in the image?<br><br><img src="../assets/images/Dr apj abdul kalam.jpg"> ',
+      question:'1) Which Instrument Dr.A.P.J Abdul Kalam is playing in the image?<br><br><img src="assets/images/Dr apj abdul kalam.jpg"> ',
       answer:[
         {option:'Nandeshwaram',  correctAnswer:false},
         {option:'Sitar',  correctAnswer:false},
@@ -18,7 +18,7 @@ export class QuizService {
       ]
     },
     {
-      question:'2) In which movie Lata Mangeshkar sing the song ?<br><br><audio controls loop><source src="../assets/Media/song Lata Mangeshkar.mp3"></audio> ',
+      question:'2) In which movie Lata Mangeshkar sing the song ?<br><br><audio controls loop><source src="assets/Media/song Lata Mangeshkar.mp3"></audio> ',
       answer:[
         {option:'Kinara',  correctAnswer:true},
         {option:'Parivaar',  correctAnswer:false},
@@ -29,7 +29,7 @@ export class QuizService {
       ]
     },
     {
-      question:'3)Whose tabla can we hear in the famous chasing Basanti sequence in the film "Sholay"?<br><br><video controls class= "tabla"><source src="../assets/Media/tabla.mp4"></video>',
+      question:'3)Whose tabla can we hear in the famous chasing Basanti sequence in the film "Sholay"?<br><br><video controls class= "tabla"><source src="assets/Media/tabla.mp4"></video>',
       answer:[
         {option:'Pt. Anokhe Lal Mishra',  correctAnswer:false},
         {option:'Ud.Zakeer Hussain',  correctAnswer:false},
@@ -185,8 +185,6 @@ export class QuizService {
   getQuiz(){
     return this.quizz;
   }
-  setQuizList(quiz:quiz){
-    this.quizz.push(quiz)
-  }
+ 
  
 }

@@ -9,11 +9,8 @@ import { quiz } from './quiz/quiz.model';
 })
 export class AppComponent {
   title = 'Quiz';
-  quizList:any;
-  quiz:any=[]
-  readyForQuiz=true
-  // currentQuiz=0;  
-constructor(private quizSer:QuizService) { 
+ 
+constructor() { 
 
 }
 
